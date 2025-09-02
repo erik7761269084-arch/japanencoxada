@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="advertiseStyle.css">
+</head>
+<body>
+  <h1 id="page-title"></h1>
+  <div id="advertise">
+    <object data="advertise.html" type="text/html"></object>
+  </div>
+  <hr>
+  <script>
+    // 获取当前路径
+    let pathParts = window.location.pathname.split("/").filter(p =>p !== "");
+    // 取倒数第二个部分作为目录名
+    let folderName = decodeURIComponent(pathParts[pathParts.length - 2]);
+    // 设置标题
+    document.getElementById("page-title").innerText = folderName + "频道首页";
+    document.title = folderName; // 同时修改网页标签标题
+  </script>
+  <h2>频道目录首页</h2>
+  <p><a href="./新建文件夹/index.html">新建文件夹</a></p> 
+  <p><a href="./日本痴汉_九月份/index.html">日本痴汉_九月份</a></p> 
+  <p><a href="./日本痴汉视频预览区/index.html">日本痴汉视频预览区</a></p> 
+</body>
+</html>
