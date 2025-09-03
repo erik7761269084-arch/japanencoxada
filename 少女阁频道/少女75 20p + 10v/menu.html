@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>图片展示</title>
+  <style>
+    .auto-img {
+      height: 100vh;
+      width: auto;
+      display: block;
+      margin: 40px auto;
+    }
+  </style>
+</head>
+<body>
+  <img src="2.jpg" class="auto-img">
+  <img src="1 (1).jpg" class="auto-img">
+  <img src="1 (2).jpg" class="auto-img">
+  <img src="1 (3).jpg" class="auto-img">
+  <img src="1 (4).jpg" class="auto-img">
+  <img src="2 (1).jpg" class="auto-img">
+  <img src="2 (2).jpg" class="auto-img">
+  <img src="2 (3).jpg" class="auto-img">
+  <img src="2 (4).jpg" class="auto-img">
+  <img src="2 (5).jpg" class="auto-img">
+  <img src="3 (1).jpg" class="auto-img">
+  <img src="3 (2).jpg" class="auto-img">
+  <img src="IMG_20250903_174741_746.jpg" class="auto-img">
+  <img src="IMG_20250903_174741_767.jpg" class="auto-img">
+  <img src="IMG_20250903_174741_955.jpg" class="auto-img">
+  <img src="IMG_20250903_174741_995.jpg" class="auto-img">
+  <img src="IMG_20250903_174742_831.jpg" class="auto-img">
+  <img src="IMG_20250903_174742_897.jpg" class="auto-img">
+  <img src="IMG_20250903_174742_974.jpg" class="auto-img">
+  <img src="IMG_20250903_174743_624.jpg" class="auto-img">
+
+  <script>
+    document.querySelectorAll('.auto-img').forEach(img => {
+      img.onerror = function () {
+        this.style.display = 'none';
+      };
+    });
+  </script>
+
+  <br>
+</body>
+</html>

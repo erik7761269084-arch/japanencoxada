@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>图片展示</title>
+  <style>
+    .auto-img {
+      height: 100vh;
+      width: auto;
+      display: block;
+      margin: 40px auto;
+    }
+  </style>
+</head>
+<body>
+  <img src="0.jpg" class="auto-img">
+  <img src="1.jpg" class="auto-img">
+  <img src="1 (1).jpg" class="auto-img">
+  <img src="1 (2).jpg" class="auto-img">
+  <img src="1 (3).jpg" class="auto-img">
+  <img src="1 (4).jpg" class="auto-img">
+  <img src="1jk水手服 (1).jpg" class="auto-img">
+  <img src="1jk水手服 (2).jpg" class="auto-img">
+  <img src="1jk水手服 (3).jpg" class="auto-img">
+  <img src="1jk水手服 (4).jpg" class="auto-img">
+  <img src="2内衣 (1).jpg" class="auto-img">
+  <img src="2内衣 (10).jpg" class="auto-img">
+  <img src="2内衣 (11).jpg" class="auto-img">
+  <img src="2内衣 (12).jpg" class="auto-img">
+  <img src="2内衣 (13).jpg" class="auto-img">
+  <img src="2内衣 (14).jpg" class="auto-img">
+  <img src="2内衣 (15).jpg" class="auto-img">
+  <img src="2内衣 (16).jpg" class="auto-img">
+  <img src="2内衣 (17).jpg" class="auto-img">
+  <img src="2内衣 (18).jpg" class="auto-img">
+  <img src="2内衣 (2).jpg" class="auto-img">
+  <img src="2内衣 (3).jpg" class="auto-img">
+  <img src="2内衣 (4).jpg" class="auto-img">
+  <img src="2内衣 (5).jpg" class="auto-img">
+  <img src="2内衣 (6).jpg" class="auto-img">
+  <img src="2内衣 (7).jpg" class="auto-img">
+  <img src="2内衣 (8).jpg" class="auto-img">
+  <img src="2内衣 (9).jpg" class="auto-img">
+  <img src="IMG_20250903_160126_878.jpg" class="auto-img">
+  <img src="IMG_20250903_160127_015.jpg" class="auto-img">
+  <img src="IMG_20250903_160127_200.jpg" class="auto-img">
+  <img src="IMG_20250903_160127_264.jpg" class="auto-img">
+  <img src="IMG_20250903_160127_631.jpg" class="auto-img">
+  <img src="IMG_20250903_160128_399.jpg" class="auto-img">
+  <img src="IMG_20250903_160129_824.jpg" class="auto-img">
+  <img src="IMG_20250903_160129_873.jpg" class="auto-img">
+  <img src="IMG_20250903_160130_003.jpg" class="auto-img">
+  <img src="IMG_20250903_160130_587.jpg" class="auto-img">
+  <img src="IMG_20250903_160133_953.jpg" class="auto-img">
+  <img src="IMG_20250903_160135_610.jpg" class="auto-img">
+  <img src="IMG_20250903_160135_734.jpg" class="auto-img">
+
+  <script>
+    document.querySelectorAll('.auto-img').forEach(img => {
+      img.onerror = function () {
+        this.style.display = 'none';
+      };
+    });
+  </script>
+
+  <br>
+</body>
+</html>

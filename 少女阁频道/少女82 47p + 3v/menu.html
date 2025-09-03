@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>图片展示</title>
+  <style>
+    .auto-img {
+      height: 100vh;
+      width: auto;
+      display: block;
+      margin: 40px auto;
+    }
+  </style>
+</head>
+<body>
+  <img src="IMG_20250903_183008_318.jpg" class="auto-img">
+  <img src="IMG_20250903_183008_388.jpg" class="auto-img">
+  <img src="IMG_20250903_183008_468.jpg" class="auto-img">
+  <img src="IMG_20250903_183008_574.jpg" class="auto-img">
+  <img src="IMG_20250903_183008_613.jpg" class="auto-img">
+  <img src="IMG_20250903_183008_733.jpg" class="auto-img">
+  <img src="IMG_20250903_183008_755.jpg" class="auto-img">
+  <img src="IMG_20250903_183008_807.jpg" class="auto-img">
+  <img src="IMG_20250903_183008_890.jpg" class="auto-img">
+  <img src="IMG_20250903_183009_135.jpg" class="auto-img">
+  <img src="IMG_20250903_183009_170.jpg" class="auto-img">
+  <img src="IMG_20250903_183009_225.jpg" class="auto-img">
+  <img src="IMG_20250903_183009_327.jpg" class="auto-img">
+  <img src="IMG_20250903_183009_828.jpg" class="auto-img">
+  <img src="IMG_20250903_183010_274.jpg" class="auto-img">
+  <img src="IMG_20250903_183010_311.jpg" class="auto-img">
+  <img src="IMG_20250903_183010_427.jpg" class="auto-img">
+  <img src="IMG_20250903_183010_500.jpg" class="auto-img">
+  <img src="IMG_20250903_183011_400.jpg" class="auto-img">
+  <img src="IMG_20250903_183011_690.jpg" class="auto-img">
+  <img src="IMG_20250903_183011_802.jpg" class="auto-img">
+  <img src="IMG_20250903_183012_159.jpg" class="auto-img">
+  <img src="IMG_20250903_183012_205.jpg" class="auto-img">
+  <img src="IMG_20250903_183012_609.jpg" class="auto-img">
+  <img src="IMG_20250903_183012_758.jpg" class="auto-img">
+  <img src="IMG_20250903_183012_842.jpg" class="auto-img">
+  <img src="IMG_20250903_183013_107.jpg" class="auto-img">
+  <img src="IMG_20250903_183013_539.jpg" class="auto-img">
+  <img src="IMG_20250903_183013_678.jpg" class="auto-img">
+  <img src="IMG_20250903_183013_718.jpg" class="auto-img">
+  <img src="IMG_20250903_183014_456.jpg" class="auto-img">
+  <img src="IMG_20250903_183014_458.jpg" class="auto-img">
+  <img src="IMG_20250903_183014_518.jpg" class="auto-img">
+  <img src="IMG_20250903_183014_944.jpg" class="auto-img">
+  <img src="IMG_20250903_183015_107.jpg" class="auto-img">
+  <img src="IMG_20250903_183015_494.jpg" class="auto-img">
+  <img src="IMG_20250903_183015_570.jpg" class="auto-img">
+  <img src="IMG_20250903_183015_697.jpg" class="auto-img">
+  <img src="IMG_20250903_183016_071.jpg" class="auto-img">
+  <img src="IMG_20250903_183016_196.jpg" class="auto-img">
+  <img src="IMG_20250903_183016_360.jpg" class="auto-img">
+  <img src="IMG_20250903_183016_506.jpg" class="auto-img">
+  <img src="IMG_20250903_183016_924.jpg" class="auto-img">
+  <img src="IMG_20250903_183017_364.jpg" class="auto-img">
+  <img src="IMG_20250903_183017_667.jpg" class="auto-img">
+  <img src="IMG_20250903_183018_018.jpg" class="auto-img">
+  <img src="IMG_20250903_183018_134.jpg" class="auto-img">
+
+  <script>
+    document.querySelectorAll('.auto-img').forEach(img => {
+      img.onerror = function () {
+        this.style.display = 'none';
+      };
+    });
+  </script>
+
+  <br>
+</body>
+</html>

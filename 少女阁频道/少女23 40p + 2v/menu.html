@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>图片展示</title>
+  <style>
+    .auto-img {
+      height: 100vh;
+      width: auto;
+      display: block;
+      margin: 40px auto;
+    }
+  </style>
+</head>
+<body>
+  <img src="0.jpg" class="auto-img">
+  <img src="2内衣胸 (1).jpg" class="auto-img">
+  <img src="2内衣胸 (2).jpg" class="auto-img">
+  <img src="2内衣胸 (3).jpg" class="auto-img">
+  <img src="2内衣胸 (4).jpg" class="auto-img">
+  <img src="2内衣胸 (5).jpg" class="auto-img">
+  <img src="3站立 (1).jpg" class="auto-img">
+  <img src="3站立 (2).jpg" class="auto-img">
+  <img src="3站立 (3).jpg" class="auto-img">
+  <img src="3站立 (4).jpg" class="auto-img">
+  <img src="3站立 (5).jpg" class="auto-img">
+  <img src="3站立 (6).jpg" class="auto-img">
+  <img src="3站立 (7).jpg" class="auto-img">
+  <img src="3站立.jpg" class="auto-img">
+  <img src="4奶 (1).jpg" class="auto-img">
+  <img src="4奶 (2).jpg" class="auto-img">
+  <img src="4奶 (3).jpg" class="auto-img">
+  <img src="4奶 (4).jpg" class="auto-img">
+  <img src="4奶 (5).jpg" class="auto-img">
+  <img src="4奶 (6).jpg" class="auto-img">
+  <img src="5逼 (1).jpg" class="auto-img">
+  <img src="5逼 (2).jpg" class="auto-img">
+  <img src="5逼 (3).jpg" class="auto-img">
+  <img src="5逼 (4).jpg" class="auto-img">
+  <img src="5逼 (5).jpg" class="auto-img">
+  <img src="5逼 (6).jpg" class="auto-img">
+  <img src="5逼 (7).jpg" class="auto-img">
+  <img src="5逼 (8).jpg" class="auto-img">
+  <img src="IMG_20250903_015223_306.jpg" class="auto-img">
+  <img src="IMG_20250903_015223_936.jpg" class="auto-img">
+  <img src="IMG_20250903_015224_132.jpg" class="auto-img">
+  <img src="IMG_20250903_015224_144.jpg" class="auto-img">
+  <img src="IMG_20250903_015226_143.jpg" class="auto-img">
+  <img src="IMG_20250903_015226_532.jpg" class="auto-img">
+  <img src="IMG_20250903_015226_637.jpg" class="auto-img">
+  <img src="IMG_20250903_015226_871.jpg" class="auto-img">
+  <img src="IMG_20250903_015227_467.jpg" class="auto-img">
+  <img src="IMG_20250903_015228_938.jpg" class="auto-img">
+  <img src="IMG_20250903_015229_061.jpg" class="auto-img">
+  <img src="IMG_20250903_015229_365.jpg" class="auto-img">
+
+  <script>
+    document.querySelectorAll('.auto-img').forEach(img => {
+      img.onerror = function () {
+        this.style.display = 'none';
+      };
+    });
+  </script>
+
+  <br>
+</body>
+</html>

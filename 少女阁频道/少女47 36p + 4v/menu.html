@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>图片展示</title>
+  <style>
+    .auto-img {
+      height: 100vh;
+      width: auto;
+      display: block;
+      margin: 40px auto;
+    }
+  </style>
+</head>
+<body>
+  <img src="0.jpg" class="auto-img">
+  <img src="1 (1).jpg" class="auto-img">
+  <img src="1 (2).jpg" class="auto-img">
+  <img src="1 (3).jpg" class="auto-img">
+  <img src="1 (4).jpg" class="auto-img">
+  <img src="2红衣 (1).jpg" class="auto-img">
+  <img src="2红衣 (2).jpg" class="auto-img">
+  <img src="2红衣 (3).jpg" class="auto-img">
+  <img src="2红衣 (4).jpg" class="auto-img">
+  <img src="2红衣 (5).jpg" class="auto-img">
+  <img src="2红衣 (6).jpg" class="auto-img">
+  <img src="3奶 (1).jpg" class="auto-img">
+  <img src="3奶 (2).jpg" class="auto-img">
+  <img src="3奶 (3).jpg" class="auto-img">
+  <img src="3腿蓝 (1).jpg" class="auto-img">
+  <img src="3腿蓝 (10).jpg" class="auto-img">
+  <img src="3腿蓝 (2).jpg" class="auto-img">
+  <img src="3腿蓝 (3).jpg" class="auto-img">
+  <img src="3腿蓝 (4).jpg" class="auto-img">
+  <img src="3腿蓝 (5).jpg" class="auto-img">
+  <img src="3腿蓝 (6).jpg" class="auto-img">
+  <img src="3腿蓝 (7).jpg" class="auto-img">
+  <img src="3腿蓝 (8).jpg" class="auto-img">
+  <img src="3腿蓝 (9).jpg" class="auto-img">
+  <img src="4特写脚丫 (1).jpg" class="auto-img">
+  <img src="4特写脚丫 (2).jpg" class="auto-img">
+  <img src="4特写脚丫 (3).jpg" class="auto-img">
+  <img src="4特写脚丫 (4).jpg" class="auto-img">
+  <img src="5逼 (5).jpg" class="auto-img">
+  <img src="5逼 (6).jpg" class="auto-img">
+  <img src="5逼 (7).jpg" class="auto-img">
+  <img src="5逼 (8).jpg" class="auto-img">
+  <img src="5逼 (9).jpg" class="auto-img">
+  <img src="6逼 (1).jpg" class="auto-img">
+  <img src="6逼 (2).jpg" class="auto-img">
+  <img src="6逼 (3).jpg" class="auto-img">
+  <img src="6逼 (4).jpg" class="auto-img">
+
+  <script>
+    document.querySelectorAll('.auto-img').forEach(img => {
+      img.onerror = function () {
+        this.style.display = 'none';
+      };
+    });
+  </script>
+
+  <br>
+</body>
+</html>

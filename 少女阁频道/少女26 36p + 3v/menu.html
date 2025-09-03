@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>图片展示</title>
+  <style>
+    .auto-img {
+      height: 100vh;
+      width: auto;
+      display: block;
+      margin: 40px auto;
+    }
+  </style>
+</head>
+<body>
+  <img src="0.jpg" class="auto-img">
+  <img src="1.jpg" class="auto-img">
+  <img src="1 (2).jpg" class="auto-img">
+  <img src="1头盔马尾 (1).jpg" class="auto-img">
+  <img src="1头盔马尾 (2).jpg" class="auto-img">
+  <img src="1头盔马尾 (3).jpg" class="auto-img">
+  <img src="1头盔马尾 (4).jpg" class="auto-img">
+  <img src="1头盔马尾 (5).jpg" class="auto-img">
+  <img src="1头盔马尾 (6).jpg" class="auto-img">
+  <img src="1头盔马尾 (7).jpg" class="auto-img">
+  <img src="2鬼脸 (1).jpg" class="auto-img">
+  <img src="2鬼脸 (2).jpg" class="auto-img">
+  <img src="2鬼脸 (3).jpg" class="auto-img">
+  <img src="2鬼脸 (4).jpg" class="auto-img">
+  <img src="2鬼脸 (5).jpg" class="auto-img">
+  <img src="2鬼脸 (6).jpg" class="auto-img">
+  <img src="3胸 (1).jpg" class="auto-img">
+  <img src="3胸 (2).jpg" class="auto-img">
+  <img src="3胸 (3).jpg" class="auto-img">
+  <img src="3胸 (4).jpg" class="auto-img">
+  <img src="3胸 (5).jpg" class="auto-img">
+  <img src="3胸 (6).jpg" class="auto-img">
+  <img src="IMG_20250903_020602_312.jpg" class="auto-img">
+  <img src="IMG_20250903_020602_476 (1).jpg" class="auto-img">
+  <img src="IMG_20250903_020602_485.jpg" class="auto-img">
+  <img src="IMG_20250903_020602_794.jpg" class="auto-img">
+  <img src="IMG_20250903_020603_520.jpg" class="auto-img">
+  <img src="IMG_20250903_020604_426.jpg" class="auto-img">
+  <img src="IMG_20250903_020604_498.jpg" class="auto-img">
+  <img src="IMG_20250903_020604_694.jpg" class="auto-img">
+  <img src="IMG_20250903_020605_162.jpg" class="auto-img">
+  <img src="IMG_20250903_020605_327.jpg" class="auto-img">
+  <img src="IMG_20250903_020605_486.jpg" class="auto-img">
+  <img src="IMG_20250903_020605_573.jpg" class="auto-img">
+  <img src="IMG_20250903_020605_848.jpg" class="auto-img">
+  <img src="IMG_20250903_020606_025.jpg" class="auto-img">
+  <img src="IMG_20250903_020606_843.jpg" class="auto-img">
+
+  <script>
+    document.querySelectorAll('.auto-img').forEach(img => {
+      img.onerror = function () {
+        this.style.display = 'none';
+      };
+    });
+  </script>
+
+  <br>
+</body>
+</html>

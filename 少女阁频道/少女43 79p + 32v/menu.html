@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>图片展示</title>
+  <style>
+    .auto-img {
+      height: 100vh;
+      width: auto;
+      display: block;
+      margin: 40px auto;
+    }
+  </style>
+</head>
+<body>
+  <img src="0.jpg" class="auto-img">
+  <img src="01.jpg" class="auto-img">
+  <img src="1 (10).jpg" class="auto-img">
+  <img src="1 (11).jpg" class="auto-img">
+  <img src="1 (12).jpg" class="auto-img">
+  <img src="1 (13).jpg" class="auto-img">
+  <img src="1 (14).jpg" class="auto-img">
+  <img src="1 (15).jpg" class="auto-img">
+  <img src="1 (16).jpg" class="auto-img">
+  <img src="1 (17).jpg" class="auto-img">
+  <img src="1 (18).jpg" class="auto-img">
+  <img src="1 (19).jpg" class="auto-img">
+  <img src="1 (7).jpg" class="auto-img">
+  <img src="1 (9).jpg" class="auto-img">
+  <img src="1聊天一 (1).jpg" class="auto-img">
+  <img src="1聊天一 (2).jpg" class="auto-img">
+  <img src="1聊天一 (3).jpg" class="auto-img">
+  <img src="1聊天一 (4).jpg" class="auto-img">
+  <img src="1聊天一 (5).jpg" class="auto-img">
+  <img src="1聊天一 (6).jpg" class="auto-img">
+  <img src="1聊天二 (1).jpg" class="auto-img">
+  <img src="1聊天二 (10).jpg" class="auto-img">
+  <img src="1聊天二 (2).jpg" class="auto-img">
+  <img src="1聊天二 (3).jpg" class="auto-img">
+  <img src="1聊天二 (4).jpg" class="auto-img">
+  <img src="1聊天二 (5).jpg" class="auto-img">
+  <img src="1聊天二 (6).jpg" class="auto-img">
+  <img src="1聊天二 (7).jpg" class="auto-img">
+  <img src="1聊天二 (8).jpg" class="auto-img">
+  <img src="1聊天二 (9).jpg" class="auto-img">
+  <img src="2 (1).jpg" class="auto-img">
+  <img src="2 (2).jpg" class="auto-img">
+  <img src="2 (3).jpg" class="auto-img">
+  <img src="2 (4).jpg" class="auto-img">
+  <img src="3美腿 (1).jpg" class="auto-img">
+  <img src="3美腿 (10).jpg" class="auto-img">
+  <img src="3美腿 (2).jpg" class="auto-img">
+  <img src="3美腿 (3).jpg" class="auto-img">
+  <img src="3美腿 (4).jpg" class="auto-img">
+  <img src="3美腿 (5).jpg" class="auto-img">
+  <img src="3美腿 (6).jpg" class="auto-img">
+  <img src="3美腿 (7).jpg" class="auto-img">
+  <img src="3美腿 (8).jpg" class="auto-img">
+  <img src="3美腿 (9).jpg" class="auto-img">
+  <img src="IMG_20250903_152252_173.jpg" class="auto-img">
+  <img src="IMG_20250903_152252_229.jpg" class="auto-img">
+  <img src="IMG_20250903_152252_305.jpg" class="auto-img">
+  <img src="IMG_20250903_152252_394.jpg" class="auto-img">
+  <img src="IMG_20250903_152252_472.jpg" class="auto-img">
+  <img src="IMG_20250903_152252_510.jpg" class="auto-img">
+  <img src="IMG_20250903_152252_514.jpg" class="auto-img">
+  <img src="IMG_20250903_152252_545.jpg" class="auto-img">
+  <img src="IMG_20250903_152252_592.jpg" class="auto-img">
+  <img src="IMG_20250903_152252_699.jpg" class="auto-img">
+  <img src="IMG_20250903_152252_720.jpg" class="auto-img">
+  <img src="IMG_20250903_152252_732.jpg" class="auto-img">
+  <img src="IMG_20250903_152252_760.jpg" class="auto-img">
+  <img src="IMG_20250903_152252_763.jpg" class="auto-img">
+  <img src="IMG_20250903_152252_776.jpg" class="auto-img">
+  <img src="IMG_20250903_152252_803.jpg" class="auto-img">
+  <img src="IMG_20250903_152252_864.jpg" class="auto-img">
+  <img src="IMG_20250903_152252_899.jpg" class="auto-img">
+  <img src="IMG_20250903_152252_901.jpg" class="auto-img">
+  <img src="IMG_20250903_152252_922.jpg" class="auto-img">
+  <img src="IMG_20250903_152252_928.jpg" class="auto-img">
+  <img src="IMG_20250903_152253_193.jpg" class="auto-img">
+  <img src="IMG_20250903_152253_303.jpg" class="auto-img">
+  <img src="IMG_20250903_152253_335.jpg" class="auto-img">
+  <img src="IMG_20250903_152259_547.jpg" class="auto-img">
+  <img src="IMG_20250903_152259_848.jpg" class="auto-img">
+  <img src="IMG_20250903_152259_974.jpg" class="auto-img">
+  <img src="IMG_20250903_152259_987.jpg" class="auto-img">
+  <img src="IMG_20250903_152300_280.jpg" class="auto-img">
+  <img src="全身镜 (1).jpg" class="auto-img">
+  <img src="全身镜 (2).jpg" class="auto-img">
+  <img src="全身镜 (3).jpg" class="auto-img">
+  <img src="全身镜 (4).jpg" class="auto-img">
+  <img src="全身镜 (5).jpg" class="auto-img">
+  <img src="全身镜 (6).jpg" class="auto-img">
+  <img src="全身镜 (7).jpg" class="auto-img">
+
+  <script>
+    document.querySelectorAll('.auto-img').forEach(img => {
+      img.onerror = function () {
+        this.style.display = 'none';
+      };
+    });
+  </script>
+
+  <br>
+</body>
+</html>

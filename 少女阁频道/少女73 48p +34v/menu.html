@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>图片展示</title>
+  <style>
+    .auto-img {
+      height: 100vh;
+      width: auto;
+      display: block;
+      margin: 40px auto;
+    }
+  </style>
+</head>
+<body>
+  <img src="0.jpg" class="auto-img">
+  <img src="IMG_20250903_173937_097.jpg" class="auto-img">
+  <img src="IMG_20250903_173937_328.jpg" class="auto-img">
+  <img src="IMG_20250903_173937_388.jpg" class="auto-img">
+  <img src="IMG_20250903_173937_540.jpg" class="auto-img">
+  <img src="IMG_20250903_173937_810.jpg" class="auto-img">
+  <img src="IMG_20250903_173938_420.jpg" class="auto-img">
+  <img src="IMG_20250903_173938_761.jpg" class="auto-img">
+  <img src="大厅 (1).jpg" class="auto-img">
+  <img src="大厅 (2).jpg" class="auto-img">
+  <img src="大厅 (3).jpg" class="auto-img">
+  <img src="大厅 (4).jpg" class="auto-img">
+  <img src="大厅.jpg" class="auto-img">
+  <img src="床上美腿 (1).jpg" class="auto-img">
+  <img src="床上美腿 (2).jpg" class="auto-img">
+  <img src="床上美腿 (3).jpg" class="auto-img">
+  <img src="床上美腿 (4).jpg" class="auto-img">
+  <img src="床上美腿 (5).jpg" class="auto-img">
+  <img src="浴室 (1).jpg" class="auto-img">
+  <img src="浴室 (10).jpg" class="auto-img">
+  <img src="浴室 (11).jpg" class="auto-img">
+  <img src="浴室 (12).jpg" class="auto-img">
+  <img src="浴室 (13).jpg" class="auto-img">
+  <img src="浴室 (14).jpg" class="auto-img">
+  <img src="浴室 (15).jpg" class="auto-img">
+  <img src="浴室 (16).jpg" class="auto-img">
+  <img src="浴室 (17).jpg" class="auto-img">
+  <img src="浴室 (18).jpg" class="auto-img">
+  <img src="浴室 (19).jpg" class="auto-img">
+  <img src="浴室 (2).jpg" class="auto-img">
+  <img src="浴室 (20).jpg" class="auto-img">
+  <img src="浴室 (21).jpg" class="auto-img">
+  <img src="浴室 (22).jpg" class="auto-img">
+  <img src="浴室 (23).jpg" class="auto-img">
+  <img src="浴室 (24).jpg" class="auto-img">
+  <img src="浴室 (25).jpg" class="auto-img">
+  <img src="浴室 (26).jpg" class="auto-img">
+  <img src="浴室 (3).jpg" class="auto-img">
+  <img src="浴室 (4).jpg" class="auto-img">
+  <img src="浴室 (5).jpg" class="auto-img">
+  <img src="浴室 (6).jpg" class="auto-img">
+  <img src="浴室 (7).jpg" class="auto-img">
+  <img src="浴室 (8).jpg" class="auto-img">
+  <img src="浴室 (9).jpg" class="auto-img">
+  <img src="自拍 (1).jpg" class="auto-img">
+  <img src="自拍 (2).jpg" class="auto-img">
+  <img src="自拍 (3).jpg" class="auto-img">
+  <img src="自拍 (4).jpg" class="auto-img">
+
+  <script>
+    document.querySelectorAll('.auto-img').forEach(img => {
+      img.onerror = function () {
+        this.style.display = 'none';
+      };
+    });
+  </script>
+
+  <br>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>图片展示</title>
+  <style>
+    .auto-img {
+      height: 100vh;
+      width: auto;
+      display: block;
+      margin: 40px auto;
+    }
+  </style>
+</head>
+<body>
+  <img src="0.jpg" class="auto-img">
+  <img src="1素 (1).jpg" class="auto-img">
+  <img src="1素 (2).jpg" class="auto-img">
+  <img src="1素 (3).jpg" class="auto-img">
+  <img src="2jk (0).jpg" class="auto-img">
+  <img src="2jk (1).jpg" class="auto-img">
+  <img src="2jk (2).jpg" class="auto-img">
+  <img src="2jk (3).jpg" class="auto-img">
+  <img src="2jk (4).jpg" class="auto-img">
+  <img src="2jk (5).jpg" class="auto-img">
+  <img src="3情趣 (1).jpg" class="auto-img">
+  <img src="3情趣 (2).jpg" class="auto-img">
+  <img src="3情趣 (3).jpg" class="auto-img">
+  <img src="3情趣 (4).jpg" class="auto-img">
+  <img src="4 (1).jpg" class="auto-img">
+  <img src="4 (2).jpg" class="auto-img">
+  <img src="IMG_20250903_162131_804.jpg" class="auto-img">
+  <img src="IMG_20250903_162132_206.jpg" class="auto-img">
+  <img src="IMG_20250903_162132_298.jpg" class="auto-img">
+  <img src="IMG_20250903_162132_429.jpg" class="auto-img">
+  <img src="IMG_20250903_162132_490.jpg" class="auto-img">
+  <img src="IMG_20250903_162132_632.jpg" class="auto-img">
+
+  <script>
+    document.querySelectorAll('.auto-img').forEach(img => {
+      img.onerror = function () {
+        this.style.display = 'none';
+      };
+    });
+  </script>
+
+  <br>
+</body>
+</html>

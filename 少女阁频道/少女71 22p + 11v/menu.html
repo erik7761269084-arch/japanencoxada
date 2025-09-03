@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>图片展示</title>
+  <style>
+    .auto-img {
+      height: 100vh;
+      width: auto;
+      display: block;
+      margin: 40px auto;
+    }
+  </style>
+</head>
+<body>
+  <img src="IMG_20250903_172941_043.jpg" class="auto-img">
+  <img src="IMG_20250903_172941_053.jpg" class="auto-img">
+  <img src="IMG_20250903_172941_079.jpg" class="auto-img">
+  <img src="IMG_20250903_172941_412.jpg" class="auto-img">
+  <img src="IMG_20250903_172941_605.jpg" class="auto-img">
+  <img src="IMG_20250903_172941_630.jpg" class="auto-img">
+  <img src="IMG_20250903_172941_896.jpg" class="auto-img">
+  <img src="IMG_20250903_172942_807.jpg" class="auto-img">
+  <img src="IMG_20250903_172943_098.jpg" class="auto-img">
+  <img src="IMG_20250903_172943_203.jpg" class="auto-img">
+  <img src="IMG_20250903_172943_253.jpg" class="auto-img">
+  <img src="IMG_20250903_172943_478.jpg" class="auto-img">
+  <img src="白衣服 (1).jpg" class="auto-img">
+  <img src="白衣服 (2).jpg" class="auto-img">
+  <img src="绿色 (1).jpg" class="auto-img">
+  <img src="绿色 (2).jpg" class="auto-img">
+  <img src="黑色丝袜 (1).jpg" class="auto-img">
+  <img src="黑色丝袜 (2).jpg" class="auto-img">
+  <img src="黑色丝袜 (3).jpg" class="auto-img">
+  <img src="黑色丝袜 (4).jpg" class="auto-img">
+  <img src="黑色丝袜 (5).jpg" class="auto-img">
+
+  <script>
+    document.querySelectorAll('.auto-img').forEach(img => {
+      img.onerror = function () {
+        this.style.display = 'none';
+      };
+    });
+  </script>
+
+  <br>
+</body>
+</html>

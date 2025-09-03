@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>图片展示</title>
+  <style>
+    .auto-img {
+      height: 100vh;
+      width: auto;
+      display: block;
+      margin: 40px auto;
+    }
+  </style>
+</head>
+<body>
+  <img src="3.jpg" class="auto-img">
+  <img src="1自拍素 (1).jpg" class="auto-img">
+  <img src="1自拍素 (10).jpg" class="auto-img">
+  <img src="1自拍素 (12).jpg" class="auto-img">
+  <img src="1自拍素 (13).jpg" class="auto-img">
+  <img src="1自拍素 (14).jpg" class="auto-img">
+  <img src="1自拍素 (2).jpg" class="auto-img">
+  <img src="1自拍素 (3).jpg" class="auto-img">
+  <img src="1自拍素 (4).jpg" class="auto-img">
+  <img src="1自拍素 (5).jpg" class="auto-img">
+  <img src="1自拍素 (6).jpg" class="auto-img">
+  <img src="1自拍素 (7).jpg" class="auto-img">
+  <img src="1自拍素 (8).jpg" class="auto-img">
+  <img src="1自拍素 (9).jpg" class="auto-img">
+  <img src="2自拍黑衣 (1).jpg" class="auto-img">
+  <img src="2自拍黑衣 (2).jpg" class="auto-img">
+  <img src="2自拍黑衣 (3).jpg" class="auto-img">
+  <img src="3 (1).jpg" class="auto-img">
+  <img src="3 (2).jpg" class="auto-img">
+  <img src="3 (3).jpg" class="auto-img">
+  <img src="IMG_20250903_030147_849.jpg" class="auto-img">
+  <img src="IMG_20250903_030148_073.jpg" class="auto-img">
+  <img src="IMG_20250903_030148_630.jpg" class="auto-img">
+  <img src="IMG_20250903_030148_667.jpg" class="auto-img">
+  <img src="IMG_20250903_030148_683.jpg" class="auto-img">
+  <img src="IMG_20250903_030152_224.jpg" class="auto-img">
+  <img src="IMG_20250903_030152_241.jpg" class="auto-img">
+  <img src="IMG_20250903_030152_651.jpg" class="auto-img">
+  <img src="IMG_20250903_030152_683.jpg" class="auto-img">
+  <img src="IMG_20250903_030153_243.jpg" class="auto-img">
+  <img src="IMG_20250903_030153_500.jpg" class="auto-img">
+
+  <script>
+    document.querySelectorAll('.auto-img').forEach(img => {
+      img.onerror = function () {
+        this.style.display = 'none';
+      };
+    });
+  </script>
+
+  <br>
+</body>
+</html>
