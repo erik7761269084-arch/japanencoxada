@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>图片展示</title>
+  <style>
+    .auto-img {
+      height: 100vh;
+      width: auto;
+      display: block;
+      margin: 40px auto;
+    }
+  </style>
+</head>
+<body>
+  <img src="0.jpg" class="auto-img">
+  <img src="IMG_20250904_014320_900.jpg" class="auto-img">
+  <img src="IMG_20250904_014321_043.jpg" class="auto-img">
+  <img src="IMG_20250904_014321_100.jpg" class="auto-img">
+  <img src="IMG_20250904_014321_146.jpg" class="auto-img">
+  <img src="IMG_20250904_014321_310.jpg" class="auto-img">
+  <img src="IMG_20250904_014321_339.jpg" class="auto-img">
+  <img src="IMG_20250904_014321_368.jpg" class="auto-img">
+  <img src="IMG_20250904_014321_369.jpg" class="auto-img">
+  <img src="IMG_20250904_014321_516.jpg" class="auto-img">
+  <img src="IMG_20250904_014321_582.jpg" class="auto-img">
+  <img src="IMG_20250904_014321_756.jpg" class="auto-img">
+  <img src="IMG_20250904_014321_769.jpg" class="auto-img">
+  <img src="IMG_20250904_014321_971.jpg" class="auto-img">
+  <img src="IMG_20250904_014322_000.jpg" class="auto-img">
+  <img src="IMG_20250904_014322_030.jpg" class="auto-img">
+  <img src="IMG_20250904_014322_163.jpg" class="auto-img">
+  <img src="IMG_20250904_014322_176.jpg" class="auto-img">
+  <img src="IMG_20250904_014322_492.jpg" class="auto-img">
+  <img src="IMG_20250904_014322_885.jpg" class="auto-img">
+  <img src="IMG_20250904_014323_065.jpg" class="auto-img">
+  <img src="IMG_20250904_014323_517.jpg" class="auto-img">
+  <img src="IMG_20250904_014323_551.jpg" class="auto-img">
+  <img src="IMG_20250904_014323_944.jpg" class="auto-img">
+  <img src="IMG_20250904_014324_140.jpg" class="auto-img">
+  <img src="IMG_20250904_014324_244.jpg" class="auto-img">
+  <img src="IMG_20250904_014324_506.jpg" class="auto-img">
+
+  <script>
+    document.querySelectorAll('.auto-img').forEach(img => {
+      img.onerror = function () {
+        this.style.display = 'none';
+      };
+    });
+  </script>
+
+  <br>
+</body>
+</html>

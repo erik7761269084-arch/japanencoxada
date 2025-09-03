@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>图片展示</title>
+  <style>
+    .auto-img {
+      height: 100vh;
+      width: auto;
+      display: block;
+      margin: 40px auto;
+    }
+  </style>
+</head>
+<body>
+  <img src="0 (1).jpg" class="auto-img">
+  <img src="0 (2).jpg" class="auto-img">
+  <img src="4浴室 (1).jpg" class="auto-img">
+  <img src="4浴室 (2).jpg" class="auto-img">
+  <img src="4浴室 (3).jpg" class="auto-img">
+  <img src="4浴室 (4).jpg" class="auto-img">
+  <img src="4浴室 (5).jpg" class="auto-img">
+  <img src="4浴室 (6).jpg" class="auto-img">
+  <img src="4浴室 (7).jpg" class="auto-img">
+  <img src="4逼 (1).jpg" class="auto-img">
+  <img src="4逼 (2).jpg" class="auto-img">
+  <img src="5房间 (1).jpg" class="auto-img">
+  <img src="5房间 (2).jpg" class="auto-img">
+  <img src="5房间 (3).jpg" class="auto-img">
+  <img src="5房间 (4).jpg" class="auto-img">
+  <img src="5房间 (5).jpg" class="auto-img">
+  <img src="5房间 (6).jpg" class="auto-img">
+  <img src="5房间 (7).jpg" class="auto-img">
+  <img src="6床 (1).jpg" class="auto-img">
+  <img src="6床 (2).jpg" class="auto-img">
+  <img src="6床 (3).jpg" class="auto-img">
+  <img src="6床 (4).jpg" class="auto-img">
+  <img src="6床 (5).jpg" class="auto-img">
+  <img src="6床 (6).jpg" class="auto-img">
+  <img src="6床 (7).jpg" class="auto-img">
+  <img src="6床 (8).jpg" class="auto-img">
+  <img src="IMG_20250904_015315_952.jpg" class="auto-img">
+
+  <script>
+    document.querySelectorAll('.auto-img').forEach(img => {
+      img.onerror = function () {
+        this.style.display = 'none';
+      };
+    });
+  </script>
+
+  <br>
+</body>
+</html>
