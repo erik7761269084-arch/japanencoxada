@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>图片展示</title>
+  <style>
+    .auto-img {
+      height: 100vh;
+      width: auto;
+      display: block;
+      margin: 40px auto;
+    }
+  </style>
+</head>
+<body>
+  <img src="3.jpg" class="auto-img">
+  <img src="4.jpg" class="auto-img">
+  <img src="6.jpg" class="auto-img">
+  <img src="7.jpg" class="auto-img">
+  <img src="0 (1).jpg" class="auto-img">
+  <img src="0 (2).jpg" class="auto-img">
+  <img src="2 (1).jpg" class="auto-img">
+  <img src="2 (2).jpg" class="auto-img">
+  <img src="3 (1).jpg" class="auto-img">
+  <img src="3 (10).jpg" class="auto-img">
+  <img src="3 (2).jpg" class="auto-img">
+  <img src="3 (3).jpg" class="auto-img">
+  <img src="3 (4).jpg" class="auto-img">
+  <img src="3 (5).jpg" class="auto-img">
+  <img src="3 (6).jpg" class="auto-img">
+  <img src="3 (7).jpg" class="auto-img">
+  <img src="3 (8).jpg" class="auto-img">
+  <img src="3 (9).jpg" class="auto-img">
+  <img src="4 (1).jpg" class="auto-img">
+  <img src="4 (2).jpg" class="auto-img">
+  <img src="4 (3).jpg" class="auto-img">
+  <img src="4 (4).jpg" class="auto-img">
+  <img src="4 (5).jpg" class="auto-img">
+  <img src="4 (6).jpg" class="auto-img">
+  <img src="4 (7).jpg" class="auto-img">
+  <img src="4 (8).jpg" class="auto-img">
+  <img src="5 (1).jpg" class="auto-img">
+  <img src="5 (2).jpg" class="auto-img">
+  <img src="5 (3).jpg" class="auto-img">
+  <img src="5 (4).jpg" class="auto-img">
+  <img src="5 (5).jpg" class="auto-img">
+  <img src="5 (6).jpg" class="auto-img">
+  <img src="5 (7).jpg" class="auto-img">
+  <img src="5 (8).jpg" class="auto-img">
+  <img src="6 (1).jpg" class="auto-img">
+  <img src="6 (2).jpg" class="auto-img">
+  <img src="6 (3).jpg" class="auto-img">
+  <img src="7 (1).jpg" class="auto-img">
+  <img src="7 (10).jpg" class="auto-img">
+  <img src="7 (2).jpg" class="auto-img">
+  <img src="7 (3).jpg" class="auto-img">
+  <img src="7 (4).jpg" class="auto-img">
+  <img src="7 (5).jpg" class="auto-img">
+  <img src="7 (6).jpg" class="auto-img">
+  <img src="7 (7).jpg" class="auto-img">
+  <img src="7 (8).jpg" class="auto-img">
+  <img src="7 (9).jpg" class="auto-img">
+  <img src="IMG_20250904_192108_791.jpg" class="auto-img">
+  <img src="IMG_20250904_192108_891.jpg" class="auto-img">
+  <img src="IMG_20250904_192108_947.jpg" class="auto-img">
+  <img src="IMG_20250904_192108_956.jpg" class="auto-img">
+  <img src="IMG_20250904_192109_187.jpg" class="auto-img">
+
+  <script>
+    document.querySelectorAll('.auto-img').forEach(img => {
+      img.onerror = function () {
+        this.style.display = 'none';
+      };
+    });
+  </script>
+
+  <br>
+</body>
+</html>

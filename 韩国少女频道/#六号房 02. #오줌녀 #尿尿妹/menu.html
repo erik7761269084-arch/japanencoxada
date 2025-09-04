@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>图片展示</title>
+  <style>
+    .auto-img {
+      height: 100vh;
+      width: auto;
+      display: block;
+      margin: 40px auto;
+    }
+  </style>
+</head>
+<body>
+  <img src="1 (1).jpg" class="auto-img">
+  <img src="1 (2).jpg" class="auto-img">
+  <img src="2 (1).jpg" class="auto-img">
+  <img src="2 (2).jpg" class="auto-img">
+  <img src="4洗澡 (1).jpg" class="auto-img">
+  <img src="4洗澡 (2).jpg" class="auto-img">
+  <img src="4洗澡 (3).jpg" class="auto-img">
+  <img src="4洗澡 (4).jpg" class="auto-img">
+  <img src="4洗澡 (5).jpg" class="auto-img">
+  <img src="IMG_20250904_175825_536.jpg" class="auto-img">
+  <img src="IMG_20250904_175825_663.jpg" class="auto-img">
+  <img src="IMG_20250904_175825_696.jpg" class="auto-img">
+  <img src="IMG_20250904_175825_864.jpg" class="auto-img">
+  <img src="IMG_20250904_175826_115.jpg" class="auto-img">
+  <img src="IMG_20250904_175826_237.jpg" class="auto-img">
+  <img src="IMG_20250904_175826_277.jpg" class="auto-img">
+  <img src="IMG_20250904_175826_368.jpg" class="auto-img">
+  <img src="IMG_20250904_175826_373.jpg" class="auto-img">
+  <img src="IMG_20250904_175826_384.jpg" class="auto-img">
+
+  <script>
+    document.querySelectorAll('.auto-img').forEach(img => {
+      img.onerror = function () {
+        this.style.display = 'none';
+      };
+    });
+  </script>
+
+  <br>
+</body>
+</html>

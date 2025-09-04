@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>图片展示</title>
+  <style>
+    .auto-img {
+      height: 100vh;
+      width: auto;
+      display: block;
+      margin: 40px auto;
+    }
+  </style>
+</head>
+<body>
+  <img src="IMG_20250904_184204_276.jpg" class="auto-img">
+  <img src="IMG_20250904_184204_584.jpg" class="auto-img">
+  <img src="IMG_20250904_184204_852.jpg" class="auto-img">
+  <img src="IMG_20250904_184205_113.jpg" class="auto-img">
+
+  <script>
+    document.querySelectorAll('.auto-img').forEach(img => {
+      img.onerror = function () {
+        this.style.display = 'none';
+      };
+    });
+  </script>
+
+  <br>
+</body>
+</html>

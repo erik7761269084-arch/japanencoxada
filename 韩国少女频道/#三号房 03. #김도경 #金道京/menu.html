@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>图片展示</title>
+  <style>
+    .auto-img {
+      height: 100vh;
+      width: auto;
+      display: block;
+      margin: 40px auto;
+    }
+  </style>
+</head>
+<body>
+  <img src="5.jpg" class="auto-img">
+  <img src="9.jpg" class="auto-img">
+  <img src="1 (11).jpg" class="auto-img">
+  <img src="1 (12).jpg" class="auto-img">
+  <img src="1 (7).jpg" class="auto-img">
+  <img src="1 (8).jpg" class="auto-img">
+  <img src="1 (9).jpg" class="auto-img">
+  <img src="1素颜 (1).jpg" class="auto-img">
+  <img src="1素颜 (2).jpg" class="auto-img">
+  <img src="1素颜 (3).jpg" class="auto-img">
+  <img src="2黑短袖 (1).jpg" class="auto-img">
+  <img src="2黑短袖 (5).jpg" class="auto-img">
+  <img src="2黑短袖 (6).jpg" class="auto-img">
+  <img src="2黑短袖 (7).jpg" class="auto-img">
+  <img src="2黑短袖 (8).jpg" class="auto-img">
+  <img src="3蓝条纹咬衣服 (1).jpg" class="auto-img">
+  <img src="3蓝条纹咬衣服 (10).jpg" class="auto-img">
+  <img src="3蓝条纹咬衣服 (2).jpg" class="auto-img">
+  <img src="3蓝条纹咬衣服 (3).jpg" class="auto-img">
+  <img src="3蓝条纹咬衣服 (4).jpg" class="auto-img">
+  <img src="3蓝条纹咬衣服 (5).jpg" class="auto-img">
+  <img src="3蓝条纹咬衣服 (6).jpg" class="auto-img">
+  <img src="3蓝条纹咬衣服 (7).jpg" class="auto-img">
+  <img src="3蓝条纹咬衣服 (8).jpg" class="auto-img">
+  <img src="3蓝条纹咬衣服 (9).jpg" class="auto-img">
+  <img src="4裸照自拍 (1).jpg" class="auto-img">
+  <img src="4裸照自拍 (2).jpg" class="auto-img">
+  <img src="4裸照自拍 (3).jpg" class="auto-img">
+  <img src="5 (1).jpg" class="auto-img">
+  <img src="5 (2).jpg" class="auto-img">
+  <img src="5 (3).jpg" class="auto-img">
+  <img src="5 (4).jpg" class="auto-img">
+  <img src="5 (6).jpg" class="auto-img">
+  <img src="5 (7).jpg" class="auto-img">
+  <img src="6 (1).jpg" class="auto-img">
+  <img src="6 (2).jpg" class="auto-img">
+  <img src="6 (3).jpg" class="auto-img">
+  <img src="6 (4).jpg" class="auto-img">
+  <img src="6 (5).jpg" class="auto-img">
+  <img src="9 (1).jpg" class="auto-img">
+  <img src="IMG_20250904_172018_410 (1).jpg" class="auto-img">
+  <img src="IMG_20250904_172018_730.jpg" class="auto-img">
+  <img src="IMG_20250904_172019_079.jpg" class="auto-img">
+  <img src="IMG_20250904_172019_182.jpg" class="auto-img">
+
+  <script>
+    document.querySelectorAll('.auto-img').forEach(img => {
+      img.onerror = function () {
+        this.style.display = 'none';
+      };
+    });
+  </script>
+
+  <br>
+</body>
+</html>
